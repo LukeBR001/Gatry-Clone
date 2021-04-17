@@ -1,9 +1,12 @@
-import React from 'react';
+ import React from 'react';
 import './Card.css';
 
 const PromotionCard = ( {promotion} ) => (
     <div className="promotion-card">
-        <img src={ promotion.imageUrl } className="promotion-card__image"/>
+        <img 
+            src={ promotion.imageUrl }
+            alt={ promotion.title } className="promotion-card__image" 
+        />
         
         <div className="promotion-card__info">
             <h1 className="promotion-card__title">{ promotion.title }</h1>
@@ -24,9 +27,12 @@ const PromotionCard = ( {promotion} ) => (
 
                 <a 
                 href={ promotion.url } 
-                target="_blank" 
+                target="_blank"
+                rel="noopener noreferrer"
                 className="promotion-card__link">
+
                     Ir para o Site
+                    
                 </a>
             </footer>
         </div>
