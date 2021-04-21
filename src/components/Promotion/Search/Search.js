@@ -17,7 +17,7 @@ const PromotionSearch = () => {
       params.title_like = search;     // criando condicional para parametros de busca (_like é para não precisar buscar pelo title exato)
     }
 
-    axios.get('http://localhost:5000/promotions?_embed=comments', {params})      //Realiza a request (get) para nosso servidor (json) + adicionado os parâmetros de busca.
+    axios.get('http://localhost:5000/promotions?_embed=comments&_order=desc&_sort=id', {params})      //Realiza a request (get) para nosso servidor (json) + adicionado os parâmetros de busca.
     .then((response) => {               // recebe a resposta do servidor com os dados em json.
       setPromotions(response.data)     // dados adicionados ao state Promotions.
     });
