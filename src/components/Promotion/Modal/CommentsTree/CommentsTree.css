@@ -7,22 +7,48 @@
 
 .promotion-modal-comments-tree__item {
     display: flex;
+    margin-top: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.123);
+    border-radius: 5px;
 }
 
 .promotion-modal-comments-tree__item__avatar {
     width: 49px;
     height: 49px;
     margin-right: 15px;
-}
-
-.promotion-modal-comments-tree__item__info {
-
+    border-radius: 50%;
 }
 
 .promotion-modal-comments-tree__item__info p {
     margin-top: 5px;
+    margin-bottom: 0px;
 }
 
 .promotion-modal-comments-tree__item__name {
     font-weight: 600;
+}
+
+.promotion-modal-comments-tree__answer-button {
+    background-color: transparent;
+    border: none;
+    color: #3498DB;
+    padding: 0;
+    margin-bottom: 5px;
+
+}
+
+.promotion-modal-comments-tree__comment-box {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 5px;
+    max-width: 75%;
+}
+
+.promotion-modal-comments-tree__send-button {
+    margin-left: 5px;
+    background-color: transparent;
+    height: 22px;
+    border: 1px solid #3498DB;
+    border-radius: 4px;
+    color: #3498DB;
 }

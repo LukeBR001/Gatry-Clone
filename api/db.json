@@ -48,32 +48,94 @@
     {
       "userId": 1,
       "promotionId": 2,
-      "comment": "Novo comentário TESTEEE",
+      "comment": "lalala",
       "id": 3
     },
     {
-      "userId": 1,
-      "promotionId": 2,
-      "comment": "testee 2",
       "id": 4
     },
     {
       "userId": 1,
       "promotionId": 2,
-      "comment": "TEste3",
+      "comment": "Teste comentário",
       "id": 5
     },
     {
-      "userId": 1,
-      "promotionId": 2,
-      "comment": "Hummm teste hihii goxtei",
       "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
     },
     {
       "userId": 1,
       "promotionId": 2,
-      "comment": "mt rapido, da ne mpra ver KASEKASKE",
-      "id": 7
+      "comment": "Nice",
+      "parentId": 2,
+      "id": 9
+    },
+    {
+      "userId": 1,
+      "promotionId": 2,
+      "comment": "nice2",
+      "parentId": 2,
+      "id": 10
+    },
+    {
+      "userId": 1,
+      "promotionId": 2,
+      "comment": "agora vai",
+      "parentId": 2,
+      "id": 11
+    },
+    {
+      "userId": 1,
+      "promotionId": 2,
+      "comment": "test nice 2",
+      "parentId": 10,
+      "id": 12
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "filho",
+      "parentId": 1,
+      "id": 13
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "filho do filho kk\n",
+      "parentId": 13,
+      "id": 14
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "asdsd",
+      "id": 15
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "Braboo\n",
+      "parentId": 15,
+      "id": 16
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "teste",
+      "parentId": 15,
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "promotionId": 1,
+      "comment": "teste",
+      "id": 18
     }
   ],
   "users": [
